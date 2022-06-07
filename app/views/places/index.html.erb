@@ -4,6 +4,8 @@
   <a href="/places/new" class="btn btn-primary" role="button">New Place</a>
 <% end %>
 
+<hr>
+
 <div class="row">
   <% for place in @places %>
     <a href="/places/<%= place["id"] %>"><%= place["name"] %></a>
